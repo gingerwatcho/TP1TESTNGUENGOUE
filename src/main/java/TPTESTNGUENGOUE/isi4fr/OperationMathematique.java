@@ -1,6 +1,6 @@
 package TPTESTNGUENGOUE.isi4fr;
 
-
+import java.util.Arrays;
 
 public class OperationMathematique {
 
@@ -18,4 +18,10 @@ public class OperationMathematique {
         }
         return result;
     }
+    
+    public static int[] trier(int[] liste) {
+        Arrays.sort(liste);
+        return liste;
+    }
+
 }

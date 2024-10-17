@@ -3,6 +3,10 @@ package TPTESTNGUENGOUE.isi4fr;
 import java.util.ArrayList;
 import java.util.List;
 
+import TPTESTNGUENGOUE.isi4fr.EmailInvalidException;
+import TPTESTNGUENGOUE.isi4fr.SuppressionInvalidException;
+import TPTESTNGUENGOUE.isi4fr.Utilisateur;
+
 public class ArrayUtilisateurs {
     private List<Utilisateur> utilisateurs;
 

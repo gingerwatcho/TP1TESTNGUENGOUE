@@ -11,6 +11,7 @@ public class OperationMathematique {
     public static int factoriel(int nombre) {
         if (nombre < 0) {
             throw new IllegalArgumentException("Nombre doit être >= 0");
+            
         }
         int result = 1;
         for (int i = 1; i <= nombre; i++) {

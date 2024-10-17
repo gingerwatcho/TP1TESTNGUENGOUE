@@ -24,5 +24,15 @@ public class OperationMathematique {
         Arrays.sort(liste);
         return liste;
     }
+    
+    public static double methodeMaxNum(double[] valeurs) {
+        double max = valeurs[0];
+        for (double valeur : valeurs) {
+            if (valeur > max) max = valeur;
+        }
+        return max;
+    }
+
+    
 
 }
